@@ -1,7 +1,7 @@
 #include <sourcemod>
 
 #pragma newdecls required
-#define CSGO_MAP_COUNT 84
+#define CSGO_MAP_COUNT 85
 
 char csgoMapName[CSGO_MAP_COUNT][] = {
 	"cs_italy_story",
@@ -87,7 +87,8 @@ char csgoMapName[CSGO_MAP_COUNT][] = {
 	"training1",
 	"cs_insertion2",
 	"de_ravine",
-	"dz_county"
+	"dz_county",
+	"de_basalt"
 };
 
 ConVar g_DeleteMap[CSGO_MAP_COUNT];
